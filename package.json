@@ -1,0 +1,35 @@
+{
+  "name": "platzigram-client",
+  "version": "1.0.0",
+  "description": "Platzigram API Client",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && ava"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cybermanpy/platzigram-client.git"
+  },
+  "author": "Diego Saldivar <fhersa@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/cybermanpy/platzigram-client/issues"
+  },
+  "homepage": "https://github.com/cybermanpy/platzigram-client#readme",
+  "devDependencies": {
+    "ava": "^0.25.0",
+    "babel-eslint": "^9.0.0",
+    "nock": "^10.0.0",
+    "standard": "^12.0.1",
+    "uuid-base62": "^0.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.2",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.2"
+  }
+}
